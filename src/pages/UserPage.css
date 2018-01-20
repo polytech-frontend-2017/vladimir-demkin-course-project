@@ -1,0 +1,27 @@
+.userpage-userpanel{
+	min-width: 600px;
+	width: 100%;
+	align-items: center;
+	display:flex;
+}
+.messagebox{
+	display: table;
+  height:  250px;
+  width: 100%;
+  text-align: center;
+  vertical-align: center;
+}
+
+.messagebox-span{
+  font-size: 36px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.userpage-userholder{
+  margin: 25px;
+  float: left;
+  width: 40%;
+  text-align: center;
+  font-size: 18px;
+
+}

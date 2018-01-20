@@ -1,0 +1,21 @@
+.progressHolder{
+	padding: 25px;
+	font-size: 24px;
+	text-align: center;
+}
+.big-icon{
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+}
+.big-icon-holder
+{
+	margin: auto;
+	border: 1px solid white;
+}
+
+.big-icon-holder:hover
+{
+
+	border: 1px solid gray;
+}

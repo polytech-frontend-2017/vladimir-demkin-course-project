@@ -1,0 +1,25 @@
+.controls-grid{
+	font-size: 18px;
+	padding: 10px;
+	margin: 25px;
+	background-color: #CCC;
+	float: right;
+	width: 60%;
+	border-radius: 10px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+ 	grid-gap: 10px;
+  	grid-auto-rows: minmax(50px, auto);
+  	align-items: center;
+}
+.controls-button{
+	margin: auto;
+ 	grid-column-start: 2;
+ 	height: 40px;
+	width: 250px;
+}
+.controls-input{
+	height: 40px;
+	width: 80%;
+}
