@@ -8,7 +8,7 @@ import UserPage from "./pages/UserPage.js";
 import Main from "./pages/Main.js";
 import Search from "./pages/Search.js";
 import Download from "./pages/Download.js";
-
+import NoMatch from "./pages/NoMatch.js";
 ReactDOM.render(
   <div>
     <HashRouter>
@@ -18,6 +18,7 @@ ReactDOM.render(
         <Route exact path="/user/:user" component={UserPage} />
         <Route exact path="/" component={Main} />
         <Route exact path="/download/:user" component={Download} />
+        <Route component={NoMatch} />
       </Switch>
     </HashRouter>
   </div>,

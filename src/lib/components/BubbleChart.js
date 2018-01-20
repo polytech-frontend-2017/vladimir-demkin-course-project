@@ -41,7 +41,7 @@ var BubbleChart = (function (_BaseChart) {
     }, {
         key: "setText",
         value: function setText(node) {
-            if (node.data.value > 15 && node.data.name.length < 25) {
+            if (node.data.value > 15 && node.data.name.length < 15) {
                 return node.data.name;
             }
         }

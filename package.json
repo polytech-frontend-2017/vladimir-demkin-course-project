@@ -44,15 +44,15 @@
   },
   "lint-staged": {
     "src/*.{js,json,css}": [
-      "prettier",
+      "prettier --write",
       "git add"
     ],
     "src/comps/*.{js,json,css}": [
-      "prettier",
+      "prettier --write",
       "git add"
     ],
     "src/pages/*.{js,json,css}": [
-      "prettier",
+      "prettier --write",
       "git add"
     ]
   }

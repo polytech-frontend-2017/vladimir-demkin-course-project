@@ -1,21 +1,21 @@
-.users-grid{
-	text-align: center;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
- 	grid-gap: 10px;
-  	grid-auto-rows: minmax(100px, auto);
+.users-grid {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 }
-.users-grid-element{
-	margin: 25px;
+.users-grid-element {
+  margin: 25px;
 }
 
-.search-add-user{
-	margin: 50px;
-	text-align: center;
-	font-size: 24px;
+.search-add-user {
+  margin: 50px;
+  text-align: center;
+  font-size: 24px;
 }
-.add-user-button{
-	margin: 50px;
-	border: 1px solid grey;
-	font-size:24px;
+.search-add-user-button {
+  margin: 50px;
+  border: 1px solid grey;
+  font-size: 24px;
 }

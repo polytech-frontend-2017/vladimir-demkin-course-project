@@ -1,28 +1,29 @@
-.content{
+.content {
   margin: 50px;
   padding: 25px;
   border: 1px solid grey;
-  min-width: 1200px;
+  min-width: 1280px;
   overflow-x: auto;
 }
-.iconholder{
-	margin: 10px;	
-	display: inline-block;
-	padding: 5px;
-	border: 1px solid white;
+.iconholder {
+  margin: 10px;
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid white;
 }
-.iconholder:hover{
-	border: 1px solid gray;
+.iconholder:hover {
+  border: 1px solid gray;
 }
-.messagebox{
-	display: table;
-  height:  250px;
+.messagebox {
+  display: table;
+  height: 250px;
   width: 100%;
   text-align: center;
   vertical-align: center;
+  border: 2px dashed #ccc;
 }
 
-.messagebox-span{
+.messagebox-span {
   font-size: 36px;
   display: table-cell;
   vertical-align: middle;

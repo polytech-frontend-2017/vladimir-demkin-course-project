@@ -1,14 +1,14 @@
-.user-panel{
-	text-align: center;
-	font-size: 25px;
+.user-panel {
+  text-align: center;
+  font-size: 25px;
 }
 
-.user-pic{
-	width: 200px;
-	height: 200px;
-	border-radius: 100px;
+.user-pic {
+  width: 175px;
+  height: 175px;
+  border-radius: 100px;
 }
-.user-icon{
-	width: 40px;
-	height: 40px;
+.user-icon {
+  width: 40px;
+  height: 40px;
 }
